@@ -24,16 +24,17 @@ export default defineNuxtConfig({
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config: any) =>
         // @ts-ignore
-        config.plugins.push(vuetify({
-                   styles: { configFile: resolve("/assets/scss/variables.scss") },
-                 }))
+        config.plugins.push(
+          vuetify({
+            styles: { configFile: resolve("/assets/scss/variables.scss") },
+          })
+        )
       );
     },
   ],
   app: {
     head: {
-      title:
-        "SpikeAdmin Nuxt 3 - Vuetify 3 - vite - Typescript Based Admin Dashboard Template",
+      title: "Kevin's Blog - A Blog About Programming, Technology, and Life",
     },
   },
   nitro: {
