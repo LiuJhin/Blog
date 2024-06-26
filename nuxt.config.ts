@@ -32,6 +32,7 @@ export default defineNuxtConfig({
       );
     },
   ],
+  plugins: ["~/plugins/gsap.ts"],
   app: {
     head: {
       title: "Kevin's Blog - A Blog About Programming, Technology, and Life",
