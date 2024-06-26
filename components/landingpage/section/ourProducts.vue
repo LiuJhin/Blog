@@ -7,7 +7,8 @@ import {
 } from "@/_mockApis/landingpage/lpPage";
 
 const toDetails = (link: string) => {
-  console.log(link);
+  // console.log(link);
+  navigateTo(link);
 };
 </script>
 <template>

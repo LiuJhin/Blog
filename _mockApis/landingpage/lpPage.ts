@@ -32,7 +32,7 @@ const productsSlider: ProductsSliderTypes[] = [
     // img: img1,
     img: "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
     name: "Mountains and rivers",
-    link: "https://spike-nuxtjs-pro-main.netlify.app/dashboards/dashboard1",
+    link: "/lifeTrack/Details",
   },
   {
     type: true,
