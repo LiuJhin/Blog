@@ -5,6 +5,10 @@ import {
   appsMegamenu,
   productsSlider,
 } from "@/_mockApis/landingpage/lpPage";
+
+const toDetails = (link: string) => {
+  console.log(link);
+};
 </script>
 <template>
   <div class="py-md-16 bg-containerBg">
@@ -55,7 +59,7 @@ import {
                           rounded="pill"
                           size="large"
                           target="_blank"
-                          :href="demo.link"
+                          @click="toDetails(demo.link)"
                           >Live Preview</v-btn
                         >
                       </div>
@@ -98,7 +102,7 @@ import {
                           rounded="pill"
                           size="large"
                           target="_blank"
-                          :href="demo.link"
+                          @click="toDetails(demo.link)"
                           >Live Preview</v-btn
                         >
                       </div>

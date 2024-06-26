@@ -31,37 +31,37 @@ const productsSlider: ProductsSliderTypes[] = [
     type: true,
     // img: img1,
     img: "https://t7.baidu.com/it/u=1732966997,2981886582&fm=193&f=GIF",
-    name: "Vue3 + TypeScript + Vite + Sass",
+    name: "Mountains and rivers",
     link: "https://spike-nuxtjs-pro-main.netlify.app/dashboards/dashboard1",
   },
   {
     type: true,
     img: "https://t7.baidu.com/it/u=3696285528,2808863331&fm=193&f=GIF",
-    name: "Dark",
+    name: "rural",
     link: "https://spike-nuxtjs-pro-dark.netlify.app/dashboards/dashboard1",
   },
   {
     type: true,
     img: "https://t7.baidu.com/it/u=1785207335,3397162108&fm=193&f=GIF",
-    name: "Horizontal",
+    name: "Hamlet",
     link: "https://spike-nuxtjs-pro-horizontal.netlify.app/dashboards/dashboard1",
   },
   {
     type: true,
     img: "https://t7.baidu.com/it/u=826329656,2212580321&fm=193&f=GIF",
-    name: "Minisidebar",
+    name: "seaboard",
     link: "https://spike-nuxtjs-pro-minisidebar.netlify.app/dashboards/dashboard1",
   },
   {
     type: true,
     img: "https://t7.baidu.com/it/u=3728410568,989468460&fm=193&f=GIF",
-    name: "RTL",
+    name: "forest",
     link: "https://spike-nuxtjs-pro-rtl.netlify.app/dashboards/dashboard1",
   },
   {
     type: true,
     img: "https://t7.baidu.com/it/u=2269795974,2286069410&fm=193&f=GIF",
-    name: "RTL",
+    name: "river",
     link: "https://spike-nuxtjs-pro-rtl.netlify.app/dashboards/dashboard1",
   },
   {
@@ -145,11 +145,11 @@ import review3 from "/images/profile/user3.jpg";
 
 const userReview: UserReviewTypes[] = [
   {
-    img: review3,
-    title: "Leslie Alexander",
-    subtitle: "Product Designer, Appzio",
+    img: "https://img2.baidu.com/it/u=1798480232,761220166&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800",
+    title: "PERFECT GRADE",
+    subtitle: "Gundam! Attack!",
     review:
-      "Such a beautiful, detailed, and extensive template. Spike admin is the perfect foundation for any project. I highly recommend this huge time saver.",
+      "There are only two hard things in computer science: cache invalidation, naming things, and off-by-one errors",
   },
   {
     img: review1,
