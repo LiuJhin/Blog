@@ -1,5 +1,5 @@
 <template>
-  <div class="revotion bg-bglight py-14">
+  <div class="revotion bg-bglight">
     <v-container class="maxWidth content">
       <v-row class="justify-center">
         <v-col cols="12" md="9" class="text-center">

@@ -153,4 +153,31 @@ import { HelpIcon, ChevronDownIcon } from "vue-tabler-icons";
     target="_blank"
     >Support</v-btn
   >
+  <v-menu
+    open-on-hover
+    open-delay="1"
+    :close-on-content-click="false"
+    class="language_wrapper position-relative"
+  >
+    <template v-slot:activator="{ props }">
+      <v-btn
+        class="hidden-sm-and-down nav-links custom-hover-primary"
+        :ripple="false"
+        rounded="sm"
+        variant="text"
+        v-bind="props"
+        >Language<ChevronDownIcon size="18" class="mt-1 ml-1" />
+      </v-btn>
+    </template>
+    <v-sheet
+      max-width="100%"
+      width="200"
+      height="100%"
+      elevation="10"
+      rounded="xl"
+      class="pa-8 mx-auto"
+    >
+      111
+    </v-sheet>
+  </v-menu>
 </template>

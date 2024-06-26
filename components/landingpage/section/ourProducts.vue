@@ -67,10 +67,10 @@ const toDetails = (link: string) => {
                     </div>
                   </v-sheet>
                   <div class="pa-4">
-                    <h6 class="text-h6 font-weight-semibold">
+                    <h6 class="text-h2 font-weight-semibold">
                       {{ demo.name }}
                     </h6>
-                    <p class="text-subtitle-1 text-grey100 mt-1">Demo</p>
+                    <p class="text-subtitle-3 text-grey100 mt-1">Demo</p>
                   </div>
                 </v-card>
               </v-col>
@@ -110,10 +110,10 @@ const toDetails = (link: string) => {
                     </div>
                   </v-sheet>
                   <div class="pa-4">
-                    <h6 class="text-h6 font-weight-semibold">
+                    <h6 class="text-h2 font-weight-semibold">
                       {{ demo.name }}
                     </h6>
-                    <p class="text-subtitle-1 text-grey100 mt-1">Application</p>
+                    <p class="text-subtitle-3 text-grey100 mt-1">Application</p>
                   </div>
                 </v-card>
               </v-col>
